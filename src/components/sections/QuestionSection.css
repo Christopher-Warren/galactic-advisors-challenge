@@ -8,7 +8,7 @@ h2 {
 
 textarea {
   resize: none;
-  width: 95%;
+  width: 100%;
   border-radius: 3px;
   border: none;
   outline: none;
@@ -23,6 +23,7 @@ button {
 
 .question-container {
   display: flex;
+  width: 100%;
   padding: 10px 0px;
   align-items: flex-start;
 }
@@ -33,6 +34,11 @@ button {
 
 .question-container:nth-of-type(even) textarea {
   background-color: #f8f8f8;
+}
+
+.question {
+  width: 100%;
+  margin-right: 20px;
 }
 
 .question p {
