@@ -1,6 +1,6 @@
 import './QuestionSection.css';
 
-const QuestionSection = ({ questions }) => {
+const QuestionSection = ({ questions, handleOnClick }) => {
   const mappedQuestions = questions.map((question, index) => {
     // Strings specify a new section
     if (typeof question === 'string') return <h2 key={index}>{question}</h2>;
@@ -11,8 +11,11 @@ const QuestionSection = ({ questions }) => {
           {/* Use button since we're cycling through 3 values
               while checkbox only has 2
           */}
-          <button />
-          <span>yes</span>
+          <button
+            className="checkbox-btn"
+            onClick={() => handleOnClick(index)}
+          />
+          <span>{question.value ? 'true' : 'false'}</span>
         </div>
 
         <div className="question">

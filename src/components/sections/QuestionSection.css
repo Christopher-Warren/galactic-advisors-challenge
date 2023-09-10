@@ -17,6 +17,10 @@ textarea {
   margin-top: 10px;
 }
 
+button {
+  all: unset;
+}
+
 .question-container {
   display: flex;
   padding: 10px 0px;
@@ -54,9 +58,10 @@ textarea {
   margin-left: 10px;
 }
 
-.checkbox {
+.checkbox-btn {
   width: 10px;
   height: 10px;
-  cursor: pointer;
   border-radius: 2px;
+  border: 1px solid #707070;
+  cursor: pointer;
 }
