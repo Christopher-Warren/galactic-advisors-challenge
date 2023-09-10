@@ -2,6 +2,9 @@
 
 ## Built with React using Vite
 
+Live Demo:
+https://galactic-advisors-challenge.vercel.app/
+
 To run project
 
 1. Clone repo
