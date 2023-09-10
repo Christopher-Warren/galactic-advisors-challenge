@@ -1,0 +1,62 @@
+h2 {
+  text-align: left;
+  font: normal normal bold 14px/19px Open Sans;
+  letter-spacing: 0.14px;
+  color: #000000;
+  opacity: 1;
+}
+
+textarea {
+  resize: none;
+  width: 95%;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font: normal normal 600 8px/11px Open Sans;
+  margin-top: 10px;
+}
+
+.question-container {
+  display: flex;
+  padding: 10px 0px;
+  align-items: flex-start;
+}
+
+.question-container:nth-of-type(odd) {
+  background-color: #f8f8f8;
+}
+
+.question-container:nth-of-type(even) textarea {
+  background-color: #f8f8f8;
+}
+
+.question p {
+  text-align: left;
+  font: normal normal 600 8px/11px Open Sans;
+  letter-spacing: 0.08px;
+  color: #000000;
+  opacity: 1;
+  margin: 0px;
+}
+
+.checkbox-container {
+  display: flex;
+
+  text-align: center;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.checkbox-container span {
+  font: normal normal bold 6px/11px Open Sans;
+  white-space: nowrap;
+  margin-left: 10px;
+}
+
+.checkbox {
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  border-radius: 2px;
+}
