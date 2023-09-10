@@ -2,7 +2,7 @@ import './ScoreSection.css';
 
 const ScoreSection = ({ score }) => {
   const calcScore = (score) => {
-    console.log;
+    console.log(score);
     let value = '';
     if (score >= 80) {
       value = 'Great';
