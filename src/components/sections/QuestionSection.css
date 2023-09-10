@@ -61,7 +61,29 @@ button {
 .checkbox-btn {
   width: 10px;
   height: 10px;
-  border-radius: 2px;
+  border-radius: 3px;
   border: 1px solid #707070;
   cursor: pointer;
+}
+
+.checkbox-btn.true {
+  background-color: #05a454;
+  border: 1px solid#05a454;
+}
+.checkbox-btn.false {
+  background-color: #ef4265;
+  border: 1px solid#ef4265;
+}
+.checkbox-btn.null {
+  background-color: white;
+  border: 1px solid #707070;
+}
+span.true {
+  color: #05a454;
+}
+span.false {
+  color: #ef4265;
+}
+span.null {
+  color: #707070;
 }

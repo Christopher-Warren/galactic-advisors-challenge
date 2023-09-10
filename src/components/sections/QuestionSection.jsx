@@ -5,6 +5,12 @@ const QuestionSection = ({ questions, handleOnClick }) => {
     // Strings specify a new section
     if (typeof question === 'string') return <h2 key={index}>{question}</h2>;
 
+    const getStyles = () => {
+      if (question.value === true) return 'true';
+      if (question.value === false) return 'false';
+      return 'null';
+    };
+
     return (
       <div key={index} className="question-container">
         <div className="checkbox-container">
@@ -12,10 +18,14 @@ const QuestionSection = ({ questions, handleOnClick }) => {
               while checkbox only has 2
           */}
           <button
-            className="checkbox-btn"
+            className={`checkbox-btn ${getStyles()}`}
             onClick={() => handleOnClick(index)}
           />
-          <span>{question.value ? 'true' : 'false'}</span>
+          <span className={getStyles()}>
+            {question.value === null && 'No answer'}
+            {question.value === true && 'Yes'}
+            {question.value === false && 'No'}
+          </span>
         </div>
 
         <div className="question">
