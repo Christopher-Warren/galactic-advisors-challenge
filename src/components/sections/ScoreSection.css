@@ -16,6 +16,16 @@
   min-width: 30px;
 }
 
+.result.Low {
+  background-color: #e3ef42;
+}
+.result.Good {
+  background-color: #b6c215;
+}
+.result.Great {
+  background-color: #05a454;
+}
+
 .score-container p {
   margin: 3px 0px;
   letter-spacing: 0.1px;
