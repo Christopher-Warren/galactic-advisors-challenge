@@ -28,12 +28,17 @@ function App() {
     });
   };
 
+  const count = questions.filter((question) => question.value).length;
+  const numOfQuestions = questions.filter((question) => !!question.text).length;
+
+  const score = Math.round((count / numOfQuestions) * 100);
+
   return (
     <main>
       <HeaderSection />
-      <ScoreSection />
+      <ScoreSection score={score} />
       <QuestionSection questions={questions} handleOnClick={handleOnClick} />
-      <ScoreSection />
+      <ScoreSection score={score} />
     </main>
   );
 }

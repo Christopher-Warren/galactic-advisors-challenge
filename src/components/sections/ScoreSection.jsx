@@ -4,10 +4,10 @@ const ScoreSection = ({ score }) => {
   return (
     <div className="score-container">
       <div className="result">
-        <p>Score</p>
+        <p>{score}%</p>
       </div>
       <p>
-        Overall Cyber Insurability Score: <span>17% - Low</span>
+        Overall Cyber Insurability Score: <span>{score}% - Low</span>
       </p>
     </div>
   );
