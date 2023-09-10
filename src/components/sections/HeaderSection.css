@@ -1,0 +1,47 @@
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-info-name {
+  text-align: left;
+  font: normal normal bold 30px/37px Bebas Neue;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  margin: 0px;
+}
+.header-info-title {
+  font: normal normal 20px/24px Bebas Neue;
+  letter-spacing: 0px;
+  color: #777777;
+  opacity: 1;
+  width: 323px;
+  height: 20px;
+  margin: 0px;
+}
+.header-logo {
+  width: 82px;
+  height: 34px;
+}
+
+.header-data {
+  display: flex;
+}
+
+.header-data > :nth-child(1) {
+  text-align: left;
+  font: normal normal 600 8px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding-right: 20px;
+}
+.header-data > :nth-child(2) {
+  text-align: left;
+  font: normal normal normal 8px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding-right: 20px;
+}

@@ -8,9 +8,9 @@ function App() {
   return (
     <main>
       <HeaderSection />
+      {/* <QuestionSection />
       <QuestionSection />
-      <QuestionSection />
-      <ScoreSection />
+      <ScoreSection /> */}
     </main>
   );
 }
