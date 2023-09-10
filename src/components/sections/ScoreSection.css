@@ -1,0 +1,26 @@
+.score-container {
+  display: flex;
+  align-items: center;
+  font: normal normal bold 10px/14px Open Sans;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+.result {
+  background-color: #ef4265;
+  color: white;
+  padding: 3px 15px;
+  margin-right: 10px;
+  text-align: center;
+  min-width: 30px;
+}
+
+.score-container p {
+  margin: 3px 0px;
+  letter-spacing: 0.1px;
+}
+
+.score-container span {
+  font: normal normal normal 10px/14px Open Sans;
+}
